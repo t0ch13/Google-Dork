@@ -1,0 +1,74 @@
+word1 word2 word3 
+it will return anything that has those words
+
+word1 OR word2
+[OR operator] it will return result either of those words
+
+"this word" 
+[quote] search for the exact word or sentence
+
+this_word -not_this_word 
+[minus sign] return first word but not the second word after the minus sign
+
+this_word +this_word 
+[plus sign] return first word with the second
+
+this_word *x
+[wildcard] return result with exactly on word between word & x
+(not accurate)
+
+define:word 
+return result of the definition of the word
+
+site:this.site 
+return only website
+
+date: x this_word 
+return result not older then 'x' month.
+
+safesearch:this_word 
+avoid adult content result
+
+link:this.website 
+find pages with link to this.website
+
+info:this.website 
+info about this.website
+
+related:to_this.website 
+find info related to the website
+
+intitle:this_word 
+return pages with this_word on page title
+
+allintitle:this_word1 this_word2
+result with both word within page title
+
+inurl:this_word 
+pages with this_word on url
+
+allinurl:this_word1 this_word2 
+result with both word within url
+
+filetype:.tx` or .exe
+return result of given file type
+example: .ppt .txt .exe
+
+cache:this.website 
+return cache version of the website
+
+phonebook:this_name` or `rphonebook:` for residential 
+bphonebook for business return phone number of a given name
+NOTE: cannot be use with another parameter
+
+
+author: 
+author of a news group post (must search on Google Group Search)
+
+insubjet: 
+search for word containing in the subject only (Google Group)
+
+stock:SAMPLE 
+return stock info of given abbreviation
+
+Bonus Tip: Google Advanced Search is like Google Dorking with interface instead of remembering those keyword: https://www.google.com/advanced_search
